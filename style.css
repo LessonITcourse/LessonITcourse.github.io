@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, Tahoma, Serif;
+    color: black;
+    background-color: #e5e4e9;
+  } 
+  
+  .text-center {
+      margin-top: 90px;
+  }
+
+  .text-center-android {
+     display: none;
+  }
+
+
+  nav {
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #1A132F; 
+    color: white;
+    padding: 30px ;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none; 
+  }
+  
+  nav li {
+    padding-left: 1rem; 
+    padding-right: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  nav a:hover {
+      color: rgb(209, 205, 205);
+  }
+
+  .navbar-bottom {
+      margin-top: 400px;
+      background-color: #1A132F;
+      padding: 30px;
+      color: whitesmoke;
+  }
+
+  .botton-android {
+      display: none;
+  }
+
+
+  .container {
+      margin-top: 100px;
+      border: solid;
+      border-width: 10px;
+      padding: 40px;
+      border-radius: 20px;
+      background-color: #D9D7F1;
+  }
+
+  .container p {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container {
+    margin-top: 100px;
+    border: solid;
+    border-width: 10px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #D9D7F1;
+}
+
+  .card-one {
+    border: solid;
+    margin: 60px;
+    border-width: 1px;
+    margin-top: 10px;
+    padding:  30px;
+    display: flexbox;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: solid;
+    border-width: 10px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #D9D7F1;
+    float: left;
+    margin-bottom: 100px;
+  }
+
+  .card-one p {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .khusus-mobile {
+    display: none;
+  }
+
+  
+   /* 
+    Extra small devices (phones, 600px and down) 
+  */
+  @media only screen and (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+    nav ul {
+      flex-direction: column;
+      padding-top: 0.5rem;
+    }
+    nav li {
+      padding: 0.5rem 0;
+    }
+    .text-center {
+        display: none;
+    }
+
+    .text-center-android {
+        display: block;
+        margin-top: 100px;
+        padding: 0px;
+        border-width: 1px;
+    }
+
+    .botton {
+        display: none;
+    }
+
+    .botton-android {
+        display: block;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .card-one {
+      display: none;
+    }
+
+    .container {
+      display: none;
+    }
+    /* body {
+      background-image: url(https://www.teahub.io/photos/full/270-2701982_anonymous-hacker-suit.jpg););
+    } */
+
+    .khusus-mobile {
+      display: block;
+      margin-top: 150px;
+    }
+
+
+
+
+  } 
