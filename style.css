@@ -109,6 +109,15 @@
     display: none;
   }
 
+  .kata-admin {
+    margin-top: 600px;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  
+
   
    /* 
     Extra small devices (phones, 600px and down) 
@@ -154,14 +163,19 @@
     .container {
       display: none;
     }
-    /* body {
-      background-image: url(https://www.teahub.io/photos/full/270-2701982_anonymous-hacker-suit.jpg););
-    } */
 
     .khusus-mobile {
       display: block;
-      margin-top: 150px;
+      margin-top: 200px;
     }
+
+    .kata-admin {
+      margin-top: 100px;
+      float: right;
+      margin-bottom: 100px;
+      display: none;
+    }
+
 
 
 
